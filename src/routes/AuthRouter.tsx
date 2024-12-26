@@ -1,5 +1,5 @@
 import { LoginPage } from '@/pages/auth/login'
-import ProfilePage from '@/pages/profile'
+import ProfilePage from '@/pages/auth/profile'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { AuthGuard } from './guards/AuthGuard'
 

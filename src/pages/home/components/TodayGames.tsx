@@ -11,7 +11,7 @@ export const TodayGames: FC = () => {
           <Card key={i} className="p-4">
             <div className="space-y-2">
               <p className="text-sm text-muted-foreground">2024.03.27 18:30</p>
-              <p className="font-semibold">두산 vs 롯데</p>
+              <p className="font-semibold">SSG vs 한화</p>
             </div>
           </Card>
         ))}

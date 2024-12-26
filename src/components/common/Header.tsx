@@ -31,7 +31,7 @@ export const Header: FC = () => {
             <div className="max-w-[1920px] mx-auto px-4">
                 <div className="h-16 flex items-center justify-between">
                     <div className="flex items-center gap-8">
-                        <Link to="/auth" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                        <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                             <Gauge className="h-6 w-6 text-blue-600" />
                             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
                                 KBO 커뮤니티
