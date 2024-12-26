@@ -18,6 +18,7 @@ const newsData = [
 
 const NewsPage = () => {
   const [searchQuery, setSearchQuery] = useState('')
+  console.log(searchQuery);
 
   return (
     <div className="container mx-auto px-4 py-8">
